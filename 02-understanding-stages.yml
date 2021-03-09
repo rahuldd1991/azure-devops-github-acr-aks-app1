@@ -42,7 +42,7 @@ stages:
     - bash: echo Build SecondJob
 - stage: DevDeploy
   variables:
-    envionment: Dev
+    envionment: Dev1
   dependsOn: Build
 #   variables:
 #     environment: Dev
